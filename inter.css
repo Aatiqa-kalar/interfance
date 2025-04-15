@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, white , blue, black); 
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    
+  }
+  
+  .back-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #d1d5db;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    gap: 20px; 
+  }
+
+  .card {
+    background: linear-gradient(to bottom right, white , blue, black); 
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .img{
+    margin-right: 2260px;
+  }
+
+  .card h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 80px;
+  }
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .google, .github {
+    width: 24px;
+    height: 24px;
+  }
+ 
+  .signin-text {
+    font-size: 14px;
+    color: #cfcfcf;
+  }
+  
+  .signin-text a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  
